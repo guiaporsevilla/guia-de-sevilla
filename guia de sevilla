@@ -3,26 +3,38 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sevilla</title>
+<title>Sevilla - Descubre la ciudad</title>
 <style>
+/* Estilos CSS */
 body {
-    font-family: Roboto;
-    margin: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-image: url('https://www.spain.info/export/sites/segtur/.content/imagenes/rutas/dos-dias-sevilla/torre-oro-sevilla-s444797035.jpg_1224728085.jpg');
     background-size: cover;
 }
 header, footer {
     background-color: #A65E2E;
     text-align: center;
-    padding: 10px;
+    padding: 20px 0;
 }
 section {
-    margin: 10px 0;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-  h1,h2 {
-    text-shadow:2px 2px 4px
-  rgba(0,0,0,0.5);
-    color:orange;
+
+h1, h2 {
+    color: #FFA500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 form {
@@ -43,7 +55,7 @@ input[type="text"], input[type="email"], textarea {
     width: calc(100% - 22px);
     padding: 10px;
     margin-bottom: 15px;
-    border: none; 
+    border: none;
     border-radius: 5px;
     background-color: #f9f9f9;
 }
@@ -65,40 +77,55 @@ input[type="submit"]:hover {
 </head>
 <body>
 <header>
-<h1>Sevilla</h1>
+<h1>Sevilla - Descubre la ciudad</h1>
 </header>
-<a href="#Historiasevilla">Historia de Sevilla</a><br>
-<a href="#Localización">Localización</a><br>
-<a href="#Lugares">Qué visitar</a><br>
-<a href="#Eventos">Eventos importantes</a><br>
+
+<nav>
+    <ul>
+        <li><a href="#Historiasevilla">Historia de Sevilla</a></li>
+        <li><a href="#Localización">Localización</a></li>
+        <li><a href="#Lugares">Qué visitar</a></li>
+        <li><a href="#Eventos">Eventos importantes</a></li>
+    </ul>
+</nav>
+
 <section>
 <a name="Historiasevilla"></a>
 <h2>Historia de Sevilla</h2>
-<p>Sevilla es una ciudad de gran riqueza histórica y cultural, ha sido testigo de innumerables eventos a lo largo de los siglos. Fundada por los romanos, pasó por el dominio musulmán antes de convertirse en un importante centro durante la época de los descubrimientos y la colonización. Su legado se refleja en su arquitectura, arte, gastronomía y festividades, convirtiéndola en una joya irresistible para los visitantes.</p>
+<p>Sevilla es una ciudad de gran riqueza histórica y cultural. Fundada por los romanos, pasó por el dominio musulmán antes de convertirse en un importante centro durante la época de los descubrimientos y la colonización.</p>
 <img src="https://www.guiasevilla.com/f/espana/sevilla/guia/historia-sevilla.jpg" alt="Sevilla">
 </section>
+
 <section>
 <a name="Localización"></a>
 <h2>Localización</h2>
-<p>Sevilla se encuentra en el sur de España, en la región de Andalucía. Es la capital de la provincia homónima y es conocida por su clima cálido, su arquitectura impresionante y su rica cultura. La provincia de Sevilla es la capital de Andalucía, así como la provincia de mayor extensión del la comunidad autónoma. Limita con las provincias de Málaga y Cádiz al Sur, Huelva al Oeste, Badajoz al Norte, y Córdoba al Este.</p>
+<p>Sevilla se encuentra en el sur de España, en la región de Andalucía. Es conocida por su clima cálido, su arquitectura impresionante y su rica cultura.</p>
 <a href="https://www.google.es/maps/preview">Google Maps</a>
 </section>
+
 <section>
 <a name="Lugares"></a>
 <h2>Qué visitar</h2>
 <ol>
-<li>CATEDRAL/GIRALDA</li>
-<p>Una de las catedrales más grandes del mundo, impresionante por dentro y por fuera y llena de obras de arte. La Giralda es parte de la visita a la Catedral, es su campanario, y merece la pena subir. Puedes comprar entrada online o apuntarte a alguna visita guiada.</p>
-<a href="https://www.visitarsevilla.com/wp-content/uploads/2020/05/giralda-sevilla.jpg"><img src="../foto2.jpg" alt="Catedral"></a>
-<li>BARRIO DE SANTA CRUZ</li>
-<p>El Barrio de Santa Cruz de Sevilla es el corazón de la Sevilla histórica con sus monumentos, las estrechas calles de la judería, sus plazas con naranjos y muchos locales con encanto para tomar tapas o hacer compras.</p>
-<a href="https://www.visitarsevilla.com/wp-content/uploads/2020/05/barrio-santa-cruz-3.jpg"><img src="../foto2.jpg" alt="Barrio de Santa Cruz"></a>
-<li>PLAZA DE ESPAÑA</li>
-<p>La plaza de España es un conjunto arquitectónico enclavado en el parque de María Luisa de la ciudad de Sevilla. Fue proyectada por el arquitecto Aníbal González. Se levantó entre 1914 y 1929 y es la construcción más grande de la Exposición Iberoamericana de 1929.</p>
-<a href="https://www.spain.info/.content/images/cabeceras-grandes/andalucia/plaza-espana-sevilla-pixabay-655015.jpg"><img src="../foto2.jpg" alt="Plaza de España"></a>
-<li>TORRE DEL ORO</li>
-<p>La Torre del Oro es un museo militar naval y un bello mirador. Todo el entorno del río está recién arreglado y es muy agradable para pasear y tomar algo. Junto a la torre del Oro parten los cruceros por el Guadalquivir.</p>
-<a href="https://fotografias.larazon.es/clipping/cmsimages02/2020/06/06/4A278058-91AC-4A23-A680-F5CB9617E76C/98.jpg?crop=4612,2595,x150,y0&width=1900&height=1069&optimize=low&format=webply"><img src="../foto2.jpg" alt="Torre del Oro"></a>
+<li>
+    <h3>CATEDRAL/GIRALDA</h3>
+    <p>Una de las catedrales más grandes del mundo, impresionante por dentro y por fuera y llena de obras de arte. La Giralda es parte de la visita a la Catedral, es su campanario, y merece la pena subir.</p>
+    <a href="https://www.visitarsevilla.com/wp-content/uploads/2020/05/giralda-sevilla.jpg"><img src="https://www.visitarsevilla.com/wp-content/uploads/2020/05/giralda-sevilla.jpg" alt="Catedral de Sevilla"></a>
+</li>
+<li>
+    <h3>BARRIO DE SANTA CRUZ</h3>
+    <p>El Barrio de Santa Cruz de Sevilla es el corazón de la Sevilla histórica con sus monumentos, las estrechas calles de la judería, sus plazas con naranjos y muchos locales con encanto para tomar tapas o hacer compras.</p>
+    <a href="https://www.visitarsevilla.com/wp-content/uploads/2020/05/barrio-santa-cruz-3.jpg"><img src="https://www.visitarsevilla.com/wp-content/uploads/2020/05/barrio-santa-cruz-3.jpg" alt="Barrio de Santa Cruz"></a>
+</li>
+<li>
+    <h3>PLAZA DE ESPAÑA</h3>
+    <p>La plaza de España es un conjunto arquitectónico enclavado en el parque de María Luisa de la ciudad de Sevilla. Fue proyectada por el arquitecto Aníbal González. Se levantó entre 1914 y 1929 y es la construcción más grande de la Exposición Iberoamericana de 1929.</p>
+    <a href="https://www.spain.info/.content/images/cabeceras-grandes/andalucia/plaza-espana-sevilla-pixabay-655015.jpg"><img src="https://www.spain.info/.content/images/cabeceras-grandes/andalucia/plaza-espana-sevilla-pixabay-655015.jpg" alt="Plaza de España"></a>
+</li>
+<li>
+    <h3>TORRE DEL ORO</h3>
+    <p>La Torre del Oro es un museo militar naval y un bello mirador. Todo el entorno del río está recién arreglado y es muy agradable para pasear y tomar algo.</p>
+    <a href="https://fotografias.larazon.es/clipping/cmsimages02/2020/06/06/4A278058-91AC-4A23-A680-F5CB9617E76C/98.jpg?crop=4612,2595,x150,y0&width=1900&height=1069&optimize=low&format=webply"><img src="https://f
 <li>SETAS</li>
 <p>Metropol Parasol, conocido popularmente como Setas de Sevilla, es una estructura en forma de pérgola de madera y hormigón ubicada en la céntrica plaza de la Encarnación de la ciudad de Sevilla, en la comunidad autónoma de Andalucía.</p>
 <a href="https://casadelpoeta.es/wp-content/uploads/2018/08/las-setas-de-sevilla-e1549925956925.jpg"><img src="../foto2.jpg" alt="Las Setas"></a>
@@ -139,5 +166,34 @@ input[type="submit"]:hover {
     <footer>
         <p>Hecho por Isabel Marín Sianes y Meylin Lomas Campos</p>
     </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chatbot de Sevilla</title>
+</head>
+<body>
+<div id="chat-container">
+  <div id="chat-window">
+    <div id="chat-output"></div>
+  </div>
+  <input type="text" id="user-input" placeholder="Escribe tu mensaje...">
+  <button onclick="sendMessage()">Enviar</button>
+</div>
+
+<script>
+function sendMessage() {
+  var userInput = document.getElementById("user-input").value;
+  document.getElementById("chat-output").innerHTML += "<p><strong>Tú:</strong> " + userInput + "</p>";
+  document.getElementById("user-input").value = "";
+  // Aquí es donde enviarías la solicitud al servicio de chatbot y manejarías la respuesta
+  // Por simplicidad, aquí solo imprimimos un mensaje de ejemplo del chatbot
+  var botResponse = "¡Hola! ¿En qué puedo ayudarte con respecto a Sevilla?";
+  document.getElementById("chat-output").innerHTML += "<p><strong>Chatbot:</strong> " + botResponse + "</p>";
+}
+</script>
 </body>
 </html>
